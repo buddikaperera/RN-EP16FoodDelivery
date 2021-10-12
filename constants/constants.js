@@ -5,7 +5,8 @@ const screens = {
     cart: "Cart",
     favourite: "Favourite",
     notification: "Notification",
-}
+    my_wallet: "My wallet",
+};
 
 const bottom_tabs = [
     {
@@ -28,7 +29,7 @@ const bottom_tabs = [
         id: 4,
         label: screens.notification,
     },
-]
+];
 
 const delivery_time = [
     {
@@ -37,13 +38,13 @@ const delivery_time = [
     },
     {
         id: 2,
-        label: "20 Mins"
+        label: "20 Mins",
     },
     {
         id: 3,
-        label: "30 Mins"
-    }
-]
+        label: "30 Mins",
+    },
+];
 
 const ratings = [
     {
@@ -65,48 +66,48 @@ const ratings = [
     {
         id: 5,
         label: 5,
-    }
-]
+    },
+];
 
 const tags = [
     {
         id: 1,
-        label: "Burger"
+        label: "Burger",
     },
     {
         id: 2,
-        label: "Fast Food"
+        label: "Fast Food",
     },
     {
         id: 3,
-        label: "Pizza"
+        label: "Pizza",
     },
     {
         id: 4,
-        label: "Asian"
+        label: "Asian",
     },
     {
         id: 5,
-        label: "Dessert"
+        label: "Dessert",
     },
     {
         id: 6,
-        label: "Breakfast"
+        label: "Breakfast",
     },
     {
         id: 7,
-        label: "Vegetable"
+        label: "Vegetable",
     },
     {
         id: 8,
-        label: "Taccos"
-    }
-]
+        label: "Taccos",
+    },
+];
 
 export default {
     screens,
     bottom_tabs,
     delivery_time,
     ratings,
-    tags
-}
+    tags,
+};

@@ -1,0 +1,1 @@
+del %appdata%\Temp\react-native-* & cd android & gradlew clean & cd

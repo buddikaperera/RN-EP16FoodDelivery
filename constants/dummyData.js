@@ -3,26 +3,26 @@ import { icons, images } from "./";
 const myProfile = {
     name: "ByProgrammers",
     profile_image: images.profile,
-    address: "No. 88, Jln Padungan, Kuching"
-}
+    address: "No. 88, Jln Padungan, Kuching",
+};
 
 const categories = [
     {
         id: 1,
         name: "Fast Food",
-        icon: icons.burger
+        icon: icons.burger,
     },
     {
         id: 2,
         name: "Fruit Item",
-        icon: icons.cherry
+        icon: icons.cherry,
     },
     {
         id: 3,
         name: "Rice Item",
-        icon: icons.rice
-    }
-]
+        icon: icons.rice,
+    },
+];
 
 const hamburger = {
     id: 1,
@@ -32,8 +32,8 @@ const hamburger = {
     price: 15.99,
     calories: 78,
     isFavourite: true,
-    image: require("../assets/dummyData/hamburger.png")
-}
+    image: require("../assets/dummyData/hamburger.png"),
+};
 
 const hotTacos = {
     id: 2,
@@ -43,8 +43,8 @@ const hotTacos = {
     price: 10.99,
     calories: 78,
     isFavourite: false,
-    image: require("../assets/dummyData/hot_tacos.png")
-}
+    image: require("../assets/dummyData/hot_tacos.png"),
+};
 
 const vegBiryani = {
     id: 3,
@@ -54,8 +54,8 @@ const vegBiryani = {
     price: 10.99,
     calories: 78,
     isFavourite: true,
-    image: require("../assets/dummyData/veg_biryani.png")
-}
+    image: require("../assets/dummyData/veg_biryani.png"),
+};
 
 const wrapSandwich = {
     id: 4,
@@ -65,58 +65,44 @@ const wrapSandwich = {
     price: 10.99,
     calories: 78,
     isFavourite: true,
-    image: require("../assets/dummyData/wrap_sandwich.png")
-}
+    image: require("../assets/dummyData/wrap_sandwich.png"),
+};
 
 const menu = [
     {
         id: 1,
         name: "Featured",
-        list: [
-            hamburger, hotTacos, vegBiryani,
-        ]
+        list: [hamburger, hotTacos, vegBiryani],
     },
     {
         id: 2,
         name: "Nearby you",
-        list: [
-            hamburger, vegBiryani, wrapSandwich,
-        ]
+        list: [hamburger, vegBiryani, wrapSandwich],
     },
     {
         id: 3,
         name: "Popular",
-        list: [
-            hamburger, hotTacos, wrapSandwich,
-        ]
+        list: [hamburger, hotTacos, wrapSandwich],
     },
     {
         id: 4,
         name: "Newest",
-        list: [
-            hamburger, hotTacos, vegBiryani,
-        ]
+        list: [hamburger, hotTacos, vegBiryani],
     },
     {
         id: 5,
         name: "Trending",
-        list: [
-            hamburger, vegBiryani, wrapSandwich,
-        ]
+        list: [hamburger, vegBiryani, wrapSandwich],
     },
     {
         id: 6,
         name: "Recommended",
-        list: [
-            hamburger, hotTacos, wrapSandwich,
-        ]
+        list: [hamburger, hotTacos, wrapSandwich],
     },
-
-]
-
+];
 
 export default {
     myProfile,
     categories,
     menu,
-}
+};
